@@ -28,3 +28,11 @@ class Pajaro:
 
     def piar(self):
         return "ruido de pajaro"
+
+
+class Vaca:
+    color = "negra"
+    patas = False
+
+    def mugir(self):
+        return "ruido de vaca"
