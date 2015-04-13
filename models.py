@@ -11,4 +11,12 @@ class Oveja:
     patas = False
 
     def balar(self):
-        return "meee"
+        return "ruido de oveja"
+
+
+class Gato:
+    color = "naranja"
+    patas = False
+
+    def maullar(self):
+        return "ruido de gato"
