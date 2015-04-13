@@ -20,3 +20,11 @@ class Gato:
 
     def maullar(self):
         return "ruido de gato"
+
+
+class Pajaro:
+    color = "amarillo"
+    patas = False
+
+    def piar(self):
+        return "ruido de pajaro"

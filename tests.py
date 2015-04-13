@@ -1,6 +1,6 @@
 import unittest
 
-from models import Perro, Oveja, Gato
+from models import Perro, Oveja, Gato, Pajaro
 
 
 class TestPerro(unittest.TestCase):
@@ -34,6 +34,17 @@ class TestGato(unittest.TestCase):
     def test_deberia_ser_naranja(self):
         gato = Gato()
         self.assertEqual("naranja", gato.color)
+
+
+class TestPajaro(unittest.TestCase):
+
+    def test_deberia_piar(self):
+        pajaro = Pajaro()
+        self.assertEqual("ruido de pajaro", pajaro.piar())
+
+    def test_deberia_ser_amarillo(self):
+        pajaro = Pajaro()
+        self.assertEqual("amarillo", pajaro.color)
 
 
 if __name__ == '__main__':
