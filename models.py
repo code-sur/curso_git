@@ -27,7 +27,7 @@ class Pajaro:
     patas = False
 
     def piar(self):
-        return "ruido de pajaro"
+        return "PEW"
 
 
 class Vaca:

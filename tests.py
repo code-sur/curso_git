@@ -40,7 +40,7 @@ class TestPajaro(unittest.TestCase):
 
     def test_deberia_piar(self):
         pajaro = Pajaro()
-        self.assertEqual("ruido de pajaro", pajaro.piar())
+        self.assertEqual("PEW", pajaro.piar())
 
     def test_deberia_ser_amarillo(self):
         pajaro = Pajaro()
