@@ -3,7 +3,7 @@ class Perro:
     patas = False
 
     def ladrar(self):
-        return "ruido de perro"
+        return "guuau guuaa"
 
 
 class Oveja:
@@ -31,8 +31,8 @@ class Pajaro:
 
 
 class Vaca:
-    color = "negra"
+    color = "violeta y blanco"
     patas = False
 
     def mugir(self):
-        return "ruido de vaca"
+        return "que ondaaaaa"
