@@ -31,8 +31,8 @@ class Pajaro:
 
 
 class Vaca:
-    color = "negra"
+    color = "violeta y blanco"
     patas = False
 
     def mugir(self):
-        return "ruido de vaca"
+        return "que ondaaaaa"
