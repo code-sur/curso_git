@@ -7,7 +7,7 @@ class TestPerro(unittest.TestCase):
 
     def test_deberia_ladrar(self):
         perro = Perro()
-        self.assertEqual("ruido de perro", perro.ladrar())
+        self.assertEqual("guuau guuaa", perro.ladrar())
 
     def test_deberia_ser_marron(self):
         perro = Perro()

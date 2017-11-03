@@ -3,7 +3,7 @@ class Perro:
     patas = False
 
     def ladrar(self):
-        return "ruido de perro"
+        return "guuau guuaa"
 
 
 class Oveja:
